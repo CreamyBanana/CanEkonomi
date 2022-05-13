@@ -1,17 +1,18 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hem from "./sidor/Hem";
-import Tjanster from "./sidor/Tjanster";
-import Omoss from "./sidor/Omoss";
-import Gdpr from "./sidor/Gdpr";
-import Kontakt from "./sidor/Kontakt";
-import Lopandebokforing from "./sidor/Lopandebokforing";
-import Bokslutocharsredovisning from "./sidor/Bokslutocharsredovisning";
-import Deklarationer from "./sidor/Deklarationer";
-import Loneadministration from "./sidor/Loneadministration";
-import Radgivning from "./sidor/Radgivning";
-import Error from "./sidor/Error";
+import Hem from "./views/Hem";
+import Tjanster from "./views/Tjanster";
+import Omoss from "./views/Omoss";
+import Gdpr from "./views/Gdpr";
+import Kontakt from "./views/Kontakt";
+import Lopandebokforing from "./views/Lopandebokforing";
+import Bokslutocharsredovisning from "./views/Bokslutocharsredovisning";
+import Deklarationer from "./views/Deklarationer";
+import Loneadministration from "./views/Loneadministration";
+import Radgivning from "./views/Radgivning";
+import Error from "./views/Error";
+import Container from "./components/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/radgivning" element={<Radgivning/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
+      <Container/>
     </Router>
   );
 }
