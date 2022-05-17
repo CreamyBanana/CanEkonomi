@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Hem() {
+function Hem() {  
   return (
     <div>THIS IS Hem Breaking changes</div>
-    
   )
   
 }

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./styles//App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hem from "./views/Hem";
@@ -14,8 +14,11 @@ import Radgivning from "./views/Radgivning";
 import Error from "./views/Error";
 import Container from "./components/Footer";
 
+
 function App() {
   return (
+    <div className="page-container">
+      <div className="content-wrap">
     <Router>
       <Navbar />
       <Routes>
@@ -31,8 +34,10 @@ function App() {
         <Route path="/radgivning" element={<Radgivning/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
-      <Container/>
     </Router>
+    </div>
+    <Container/>
+    </div>
   );
 }
 
