@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import Footer from ".";
+import React from "react";
 import { FooterContainer, FooterWrapper, FooterRow, FooterColumn, FooterLink, FooterTitle } from "../styles/Footer.style";
-import ButtonMailto from "./MailTo";
 
 export function Container() {
     return (
