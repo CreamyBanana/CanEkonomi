@@ -1,5 +1,5 @@
 import React from "react";
-import { FooterContainer, FooterWrapper, FooterRow, FooterColumn, FooterLink, FooterTitle } from "../styles/Footer.style";
+import { FooterContainer, FooterWrapper, FooterRow, FooterColumn, FooterLink, FooterText } from "../styles/Footer.style";
 
 export function Container() {
     return (
@@ -7,19 +7,16 @@ export function Container() {
             <FooterWrapper>
                 <FooterRow>
                     <FooterColumn>
-                        <FooterTitle>About Us</FooterTitle>
                         <FooterLink onClick={() => window.location = 'mailto:Grupp3Projektblogg@gmail.com'}>Grupp3Projektblogg@gmail.com</FooterLink>
                     </FooterColumn>
                     <FooterColumn>
-                        <FooterTitle>skojj</FooterTitle>
                     </FooterColumn>
                     <FooterColumn>
-                        <FooterTitle>lall</FooterTitle>
                         <FooterLink href="tel:+46763114911">0763114911</FooterLink>
                     </FooterColumn>
                     <FooterColumn>
-                        <FooterTitle>test</FooterTitle>
-                        <FooterLink href="#">Story</FooterLink>
+                        <FooterText>Svalgången 1</FooterText>
+                        <FooterText>724 81 Västerås</FooterText>
                     </FooterColumn>
                 </FooterRow>
             </FooterWrapper>

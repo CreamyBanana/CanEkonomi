@@ -64,6 +64,7 @@ export const NavbarLinkExtended = styled(Link)`
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
   margin: 10px;
+  z-index: 500;
   &:hover{
     color: grey;
     text-decoration: underline;

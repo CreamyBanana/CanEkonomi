@@ -48,15 +48,25 @@ export const FooterLink = styled.div`
         text-decoration: underline;
         transform: scale(1.05);
     }
-    @media (max-width: 860px) {
-        display: none;
+
+    @media () {
+        text-allign: center;
+        position: center;
       }
     
 `
 
-export const FooterTitle = styled.div`
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 40px;
-    font-weight: bold;
+export const FooterText = styled.div`
+color: #fff;
+margin-bottom: 20px;
+font-size: 18px;
+text-decoration: none;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    @media () {
+        text-allign: center;
+        position: center;
+      }
+
+    
 `
