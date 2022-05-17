@@ -9,7 +9,7 @@ export function Container() {
                     <FooterColumn>
                     <Logo src={LogoImg}></Logo>
                     <FooterText>Svalgången 1, 724 81 Västerås</FooterText>
-                    <FooterLink href="tel:+46763114911">0763114911</FooterLink>
+                    <FooterLink onClick={() => window.location = 'tel:+46762342303'}>0762342303</FooterLink>
                         <FooterLink onClick={() => window.location = 'mailto:Grupp3Projektblogg@gmail.com'}>Grupp3Projektblogg@gmail.com</FooterLink>
                     </FooterColumn>
             </FooterWrapper>
