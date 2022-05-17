@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from ".";
 import { FooterContainer, FooterWrapper, FooterRow, FooterColumn, FooterLink, FooterTitle } from "../styles/Footer.style";
+import ButtonMailto from "./MailTo";
 
 export function Container() {
     return (
@@ -9,15 +10,14 @@ export function Container() {
                 <FooterRow>
                     <FooterColumn>
                         <FooterTitle>About Us</FooterTitle>
-                        <FooterLink href="#">Story</FooterLink>
+                        <FooterLink onClick={() => window.location = 'mailto:Grupp3Projektblogg@gmail.com'}>Grupp3Projektblogg@gmail.com</FooterLink>
                     </FooterColumn>
                     <FooterColumn>
                         <FooterTitle>skojj</FooterTitle>
-                        <FooterLink href="#">Story</FooterLink>
                     </FooterColumn>
                     <FooterColumn>
                         <FooterTitle>lall</FooterTitle>
-                        <FooterLink href="#">Story</FooterLink>
+                        <FooterLink href="tel:+46763114911">0763114911</FooterLink>
                     </FooterColumn>
                     <FooterColumn>
                         <FooterTitle>test</FooterTitle>

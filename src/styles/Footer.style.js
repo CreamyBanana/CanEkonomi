@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 export const FooterContainer = styled.div`
     padding: 80px 60px;
-    background: radial-gradient(circle, rgba(92, 39, 251, 1) 0%, rgba(112, 71, 247, 1) 100%); 
+    background: #808080; 
     position:absolute;
     left:0;
     bottom:0;
     right:0;
+    border-top: 1px solid grey;
 `
 
 export const FooterWrapper = styled.div`
@@ -39,11 +40,18 @@ export const FooterLink = styled.div`
     margin-bottom: 20px;
     font-size: 18px;
     text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     &:hover {
         color: #ff9c00;
         transition: 200ms ease-in;
+        text-decoration: underline;
+        transform: scale(1.05);
     }
+    @media (max-width: 860px) {
+        display: none;
+      }
+    
 `
 
 export const FooterTitle = styled.div`
