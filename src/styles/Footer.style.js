@@ -42,15 +42,6 @@ export const FooterLink = styled.div`
     
 `
 
-export const FooterText = styled.div`
-color: black;
-margin-bottom: 10px;
-font-size: 18px;
-text-align: center;
-text-decoration: none;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-`
 export const Logo = styled.img`
   max-width: 180px;
   height: auto;
