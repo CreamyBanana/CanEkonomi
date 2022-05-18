@@ -2,7 +2,7 @@ import React from 'react'
 import { ViewContainer, TextContainer,LogoTextContainer, Logo} from "../styles/View.style";
 import LogoImg from "../assets/institut.jpg";
 
-export function Hem() {  
+export function home() {  
   return (
     <ViewContainer>      
       <LogoTextContainer>
@@ -17,4 +17,4 @@ export function Hem() {
   
 }
 
-export default Hem
+export default home

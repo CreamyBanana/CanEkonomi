@@ -1,9 +1,9 @@
 import React from 'react'
 
-function omoss() {
+function aboutUs() {
   return (
     <div>THIS IS omoss</div>
   )
 }
 
-export default omoss
+export default aboutUs

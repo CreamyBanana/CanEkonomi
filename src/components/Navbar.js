@@ -22,10 +22,10 @@ function Navbar() {
         <LeftContainer>
           <NavbarLinkContainer>
             <NavbarLink to="/"> Hem</NavbarLink>
-            <NavbarLink to="/tjanster"> Tjänster</NavbarLink>
-            <NavbarLink to="/omoss"> Om Oss</NavbarLink>
+            <NavbarLink to="/services"> Tjänster</NavbarLink>
+            <NavbarLink to="/aboutUs"> Om Oss</NavbarLink>
             <NavbarLink to="/gdpr"> GDPR</NavbarLink>
-            <NavbarLink to="/kontakt"> Kontakt</NavbarLink>
+            <NavbarLink to="/contact"> Kontakt</NavbarLink>
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -42,10 +42,10 @@ function Navbar() {
       {extendNavbar && (
         <NavbarExtendedContainer>
           <NavbarLinkExtended to="/"> Hem</NavbarLinkExtended>
-          <NavbarLinkExtended to="/tjanster"> Tjänster</NavbarLinkExtended>
-          <NavbarLinkExtended to="/omoss"> Om Oss</NavbarLinkExtended>
+          <NavbarLinkExtended to="/services"> Tjänster</NavbarLinkExtended>
+          <NavbarLinkExtended to="/aboutUs"> Om Oss</NavbarLinkExtended>
           <NavbarLinkExtended to="/gdpr"> GDPR</NavbarLinkExtended>
-          <NavbarLinkExtended to="/kontakt"> Kontakt</NavbarLinkExtended>
+          <NavbarLinkExtended to="/contact"> Kontakt</NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

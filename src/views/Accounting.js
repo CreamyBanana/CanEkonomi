@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Lopandebokforing() {
+function accounting() {
   return (
     <div>THIS IS Lopandebokforing</div>
   )
 }
 
-export default Lopandebokforing
+export default accounting

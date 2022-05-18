@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Bokslutocharsredovisning() {
+function financialStatementsAndAccounting() {
   return (
     <div>THIS IS Bokslutocharsredovisning</div>
   )
 }
 
-export default Bokslutocharsredovisning
+export default financialStatementsAndAccounting

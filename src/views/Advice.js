@@ -1,9 +1,9 @@
 import React from 'react'
 
-function radgivning() {
+function advice() {
   return (
     <div>THIS IS radgivning</div>
   )
 }
 
-export default radgivning
+export default advice

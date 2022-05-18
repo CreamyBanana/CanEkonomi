@@ -1,9 +1,9 @@
 import React from 'react'
 
-function deklarationer() {
+function declarations() {
   return (
     <div>THIS IS deklarationer</div>
   )
 }
 
-export default deklarationer
+export default declarations

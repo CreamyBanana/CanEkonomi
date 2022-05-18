@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Error() {
+function error() {
   return (
     <div>PAGE NOT FOUND TEST</div>
   )
 }
 
-export default Error
+export default error

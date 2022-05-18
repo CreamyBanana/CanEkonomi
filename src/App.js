@@ -1,16 +1,16 @@
-import "./styles//App.css";
+import "./styles//App.style.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hem from "./views/Home";
-import Tjanster from "./views/Services";
-import Omoss from "./views/AboutUs";
+import Home from "./views/Home";
+import Services from "./views/Services";
+import AboutUs from "./views/AboutUs";
 import Gdpr from "./views/Gdpr";
-import Kontakt from "./views/Contact";
-import Lopandebokforing from "./views/Accounting";
-import Bokslutocharsredovisning from "./views/FinancialStatements&Accounting";
-import Deklarationer from "./views/Declaration";
-import Loneadministration from "./views/SalaryAdministration";
-import Radgivning from "./views/Advice";
+import Contact from "./views/Contact";
+import Accounting from "./views/Accounting";
+import FinancialStatementsAndAccounting from "./views/FinancialStatementsAndAccounting";
+import Declarations from "./views/Declarations";
+import SalaryAdministration from "./views/SalaryAdministration";
+import Advice from "./views/Advice";
 import Error from "./views/Error";
 import Container from "./components/Footer";
 
@@ -22,16 +22,16 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Hem />}/>
-        <Route path="/tjanster" element={<Tjanster/>}/>
-        <Route path="/omoss" element={<Omoss/>}/>
+        <Route path="/" element={<Home />}/>
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/aboutUs" element={<AboutUs/>}/>
         <Route path="/gdpr" element={<Gdpr/>}/>
-        <Route path="/kontakt" element={<Kontakt/>}/>
-        <Route path="/lopande-bokforing" element={<Lopandebokforing/>}/>
-        <Route path="/bokslut-och-arsredovisning" element={<Bokslutocharsredovisning/>}/>
-        <Route path="/deklarationer" element={<Deklarationer/>}/>
-        <Route path="/loneadministration" element={<Loneadministration/>}/>
-        <Route path="/radgivning" element={<Radgivning/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/accounting" element={<Accounting/>}/>
+        <Route path="/financialStatementsAndAccounting" element={<FinancialStatementsAndAccounting/>}/>
+        <Route path="/declarations" element={<Declarations/>}/>
+        <Route path="/salaryAdministration" element={<SalaryAdministration/>}/>
+        <Route path="/advice" element={<Advice/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
     </Router>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function loneadministration() {
+function salaryAdministration() {
   return (
     <div>THIS IS loneadministration</div>
   )
 }
 
-export default loneadministration
+export default salaryAdministration
