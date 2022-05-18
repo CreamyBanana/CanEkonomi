@@ -1,5 +1,5 @@
 import React from 'react'
-import { HemContainer, TextContainer,LogoTextContainer, Logo, TextOverImg} from "../styles/Hem.style";
+import { HemContainer, TextContainer,LogoTextContainer, Logo} from "../styles/Hem.style";
 import LogoImg from "../assets/institut.jpg";
 
 export function Hem() {  

@@ -77,11 +77,3 @@ export const Logo = styled.img`
   margin-right: auto;
   width: 100%;
 `;
-
-export const TextOverImg = styled.div`
-  align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-`;
