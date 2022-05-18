@@ -88,7 +88,7 @@ export const OpenLinksButton = styled.button`
   font-size: 37px;
   cursor: pointer;
 
-  @media (min-width: 860px) {
+  @media (min-width: 861px) {
     display: none;
   }
 `;
@@ -97,7 +97,7 @@ export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media (min-width: 860px) {
+  @media (min-width: 861px) {
     display: none;
   }
 `;
