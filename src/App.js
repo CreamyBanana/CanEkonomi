@@ -1,16 +1,16 @@
 import "./styles//App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hem from "./views/Hem";
-import Tjanster from "./views/Tjanster";
-import Omoss from "./views/Omoss";
+import Hem from "./views/Home";
+import Tjanster from "./views/Services";
+import Omoss from "./views/AboutUs";
 import Gdpr from "./views/Gdpr";
-import Kontakt from "./views/Kontakt";
-import Lopandebokforing from "./views/Lopandebokforing";
-import Bokslutocharsredovisning from "./views/Bokslutocharsredovisning";
-import Deklarationer from "./views/Deklarationer";
-import Loneadministration from "./views/Loneadministration";
-import Radgivning from "./views/Radgivning";
+import Kontakt from "./views/Contact";
+import Lopandebokforing from "./views/Accounting";
+import Bokslutocharsredovisning from "./views/FinancialStatements&Accounting";
+import Deklarationer from "./views/Declaration";
+import Loneadministration from "./views/SalaryAdministration";
+import Radgivning from "./views/Advice";
 import Error from "./views/Error";
 import Container from "./components/Footer";
 
