@@ -20,26 +20,26 @@ function services() {
         <div className="col-md-4">
           <Card imgsrc={Img1} title="Löpande bokföring" text="Vi erbjuder olika bokföringsprogram från
                      marknaden och ofta väljer kunderna ett upplägg där vi arbetar tillsammans i webbaserade bokföringssystem."
-            page="./Accounting"></Card>
+            page="/Accounting"></Card>
         </div>
         <div className="col-md-4">
           <Card imgsrc={Img2} title="Deklarationer" text="Att deklarera rätt är oerhört viktigt
                      då konsekvenserna av felhantering kan bli ödesdigra. Vi hjälper er att deklarera rätt!"
-            page="./Declarations"></Card>
+            page="/Declarations"></Card>
         </div>
         <div className="col-md-4">
           <Card imgsrc={LogoImg} title="Löneadministration" text="Det är viktigt att lönehantering
                      fungerar bra i bolaget för att undvika missnöje i organisationen. Vi har möjlighet att hjälpa ert företag
-                      med alla frågor som rör löneadministration." page="./SalaryAdministration"></Card>
+                      med alla frågor som rör löneadministration." page="/SalaryAdministration"></Card>
         </div>
         <div className="col-md-4">
           <Card imgsrc={Img1} title="Rådgivning" text="Vi träffar våra kunder regelbundet och diskuterar utsikter för 
                     företaget och informerar om de nyheter som påverkar verksamheten för egenföretagare och ägare i fåmansbolag."
-            page="./Advice"></Card>
+            page="/Advice"></Card>
         </div>
         <div className="col-md-4">
           <Card imgsrc={Img2} title="Bokslut & Årsredovisning" text="Vi kan ta fram årsredovisning för ert företag.
-                     Vi erbjuder även delårsbokslut." page="./FinancialStatementsAndAccounting"></Card>
+                     Vi erbjuder även delårsbokslut." page="/FinancialStatementsAndAccounting"></Card>
         </div>
       </div>
     </div>
