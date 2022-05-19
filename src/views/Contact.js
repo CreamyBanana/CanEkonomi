@@ -6,4 +6,4 @@ function contact() {
   )
 }
 
-export default contact
+export default contact  

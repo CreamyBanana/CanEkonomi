@@ -19,24 +19,24 @@ function App() {
   return (
     <div className="page-container">
       <div className="content-wrap">
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/services" element={<Services/>}/>
-        <Route path="/aboutUs" element={<AboutUs/>}/>
-        <Route path="/gdpr" element={<Gdpr/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/accounting" element={<Accounting/>}/>
-        <Route path="/financialStatementsAndAccounting" element={<FinancialStatementsAndAccounting/>}/>
-        <Route path="/declarations" element={<Declarations/>}/>
-        <Route path="/salaryAdministration" element={<SalaryAdministration/>}/>
-        <Route path="/advice" element={<Advice/>}/>
-        <Route path="*" element={<Error/>}/>
-      </Routes>
-    </Router>
-    </div>
-    <Container/>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/aboutUs" element={<AboutUs />} />
+            <Route path="/gdpr" element={<Gdpr />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/accounting" element={<Accounting />} />
+            <Route path="/financialStatementsAndAccounting" element={<FinancialStatementsAndAccounting />} />
+            <Route path="/declarations" element={<Declarations />} />
+            <Route path="/salaryAdministration" element={<SalaryAdministration />} />
+            <Route path="/advice" element={<Advice />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </Router>
+      </div>
+      <Container />
     </div>
   );
 }

@@ -26,6 +26,8 @@ export const TextContainer = styled.div`
   width: 765px;
   line-height: 1.5;
   color: #333333;
+  margin-top: 90px;
+  margin-bottom: 90px;
   
   @media (max-width: 769px) {
     text-align: center;
@@ -65,6 +67,8 @@ export const TextContainer = styled.div`
     font-size: small;
     line-height: 1.5;
     color: #333333;
+    margin-top: 35px;
+    margin-bottom: -35px;
   }
   
 `;
