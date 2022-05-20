@@ -10,7 +10,7 @@ export const NavbarContainer = styled.nav`
   flex-direction: column;
   border-bottom: 1px solid grey;
   
-  @media (min-width: 860px) {
+  @media (min-width: 861px) {
     height: 80px;
   }
 `;
@@ -53,7 +53,7 @@ export const NavbarLink = styled(Link)`
     transform: scale(1.05);
   }
   
-  @media (max-width: 860px) {
+  @media (max-width: 861px) {
     display: none;
   }
 `;

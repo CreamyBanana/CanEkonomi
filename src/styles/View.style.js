@@ -6,7 +6,6 @@ export const ViewContainer = styled.div`
 `;
 
 export const LogoTextContainer = styled.div`
-  align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -29,7 +28,7 @@ export const TextContainer = styled.div`
   margin-top: 90px;
   margin-bottom: 90px;
   
-  @media (max-width: 769px) {
+  @media (max-width: 861px) {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -74,7 +73,6 @@ export const TextContainer = styled.div`
 `;
 
 export const Logo = styled.img`
-  align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;

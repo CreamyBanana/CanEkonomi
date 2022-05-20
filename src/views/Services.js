@@ -13,7 +13,7 @@ function services() {
       <div className="row">
         <div className="col-md-12">
           <TextContainer>
-            <p>Can Ekonomibyrå är ett tjänstebaserat företag som erbjuder våra kunder anpassade lösningar inom redovisningstjänster företagsekonomisk
+            <p>Can Ekonomibyrå är ett tjänstebaserat företag som erbjuder våra kunder anpassade lösningar inom redovisningstjänster och företagsekonomisk
               rådgivning. Redovisningsbyrån ligger i en av Vallbyinstitutets lokaler i Vallby, i närhet av Vallby Centrum.</p>
           </TextContainer>
         </div>
