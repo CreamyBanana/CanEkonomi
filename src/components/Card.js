@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/Card.style.css";
+import { Link } from 'react-router-dom';
 
 const Card = props => {
   return (
@@ -13,7 +14,7 @@ const Card = props => {
         <p className="card-text text-secondary">
           {props.text}
         </p>
-        <a href={props.page} className="btn btn-outline-success">Läs mer</a>
+        <Link to={props.page} className="btn btn-outline-success">Läs mer</Link>
       </div>
     </div>
 
