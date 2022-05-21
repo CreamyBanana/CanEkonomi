@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactSection from '../components/Contact/contact-section/ContactSection'
+import ContactSection from '../components/ContactSection'
 import Map from '../components/Map'
 
 function contact() {

@@ -14,7 +14,7 @@ const Card = props => {
         <p className="card-text text-secondary">
           {props.text}
         </p>
-        <Link to={props.page} className="btn btn-outline-success">Läs mer</Link>
+        <Link to={props.page} className="btn btn-outline-secondary">Läs mer</Link>
       </div>
     </div>
 

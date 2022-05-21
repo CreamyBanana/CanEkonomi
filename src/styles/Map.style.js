@@ -7,9 +7,9 @@ export const containerStyle = {
     flexDirection:'row',
     alignItems:'center',
     justifyContent:'center',
-    marginTop: '10px',
     marginLeft: '9%',
-    marginRight: '9%'
+    marginRight: '9%',
+    marginBottom: '30px'
   };
 
  export const center = {

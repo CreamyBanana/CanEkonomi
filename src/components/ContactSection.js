@@ -2,7 +2,7 @@ import React from 'react'
 
 import Form from './Form'
 
-import './contact-section.css'
+import '../styles/ContactSection.css'
 
 const ContactSection = () => (
   <>

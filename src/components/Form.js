@@ -1,4 +1,4 @@
-import './form.css'
+import '../styles/Form.css'
 import emailjs from "emailjs-com";
 import React from 'react';
 
@@ -40,10 +40,12 @@ export function Form() {
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
                           <label for="name">Ditt meddelande:</label>
+                          </div>
+                          <div className="col-8 form-group pt-2 mx-auto">
                               <textarea className="form-textarea" id="" placeholder="Hur kan jag hjälpa till" name="message"></textarea>
                           </div>
-                          <div className="col-8 pt-3 mx-auto">
-                              <input  type="submit" value="Skicka meddelande"></input>
+                          <div className="col-8 pt-3 mx-auto text-center">
+                              <input type="submit" className="btn btn-outline-secondary" value="Skicka meddelande"></input>
                           </div>
                       </div>
                   </form>

@@ -39,7 +39,7 @@ function services() {
         </div>
         <div className="col-md-4">
           <Card imgsrc={Img2} title="Bokslut & Årsredovisning" text="Vi kan ta fram årsredovisning för ert företag.
-                     Vi erbjuder även delårsbokslut." page="Advice" />
+                     Vi erbjuder även delårsbokslut." page="/FinancialStatementsAndAccounting" />
         </div>
       </div>
     </div>
