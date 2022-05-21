@@ -7,13 +7,14 @@ export function Form() {
 
   function sendEmail(e) {
     e.preventDefault();
+    alert('Din förfrågan har skickats,\nvänligen se din epost för bekräftelse');
   
   emailjs.sendForm('service_7m22wvj', 'template_0cp7v5f', e.target, 'hq2td4Bz4k7RogNOV')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
         console.log(error.text);
-    });
+    }); 
     e.target.reset()
   }
   
@@ -45,7 +46,7 @@ export function Form() {
                               <textarea className="form-textarea" id="" placeholder="Hur kan jag hjälpa till" name="message"></textarea>
                           </div>
                           <div className="col-8 pt-3 mx-auto text-center">
-                              <input type="submit" className="btn btn-outline-secondary" value="Skicka meddelande"></input>
+                              <input type="submit" className="btn btn-outline-secondary" value="Skicka meddelande" />
                           </div>
                       </div>
                   </form>
