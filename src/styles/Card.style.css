@@ -35,7 +35,7 @@
 
 .container-fluid {
     padding-top: 1rem;
-    padding-bottom: 6rem;
+    padding-bottom: 5px;
 }
 
 .overflow {
@@ -52,5 +52,5 @@
 }
 
 .col-md-4 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }

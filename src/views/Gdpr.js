@@ -50,35 +50,17 @@ function gdpr() {
           <p>Ändamålet och laglig grund för vår behandling av personuppgifter</p>
         </TextContainerHeader>
         <TextContainerGdpr>
-          <p>vi behandlar enbart sådana personuppgifter som vi har en laglig grund för och ett specifikt ändamål med att
+          <p>Vi behandlar enbart sådana personuppgifter som vi har en laglig grund för och ett specifikt ändamål med att
             behandla. Ändamålet med behandlingen är att fullgöra våra åtaganden inom vår verksamhet gentemot våra kunder,
             leverantörer och mot arbetssökande. Vi behandlar också personuppgifter med syftet att lämna information och erbjudanden om
             våra tjänster.
-            <br /><br />
+            <br /><br></br>
             Den lagliga grunden är huvudsakligen fullgörande av avtal vilket även innefattar fullgörande av
             personuppgiftsbiträdesavtal i de fall som vi är personuppgiftsbiträde. Personuppgifter som används
             för marknadsföring kan behandlas med den lagliga grunden ”berättigat intresse”. Det kan även vara nödvändigt att
             behandla personuppgifterna för att kunna fullgöra de förpliktelser som åligger oss enligt lag.
-            <br /><br /></p>
-        </TextContainerGdpr>
-        <TextContainerHeader>
-          <p>Samtycke</p>
-        </TextContainerHeader>
-        <TextContainerGdpr>
-          <p>Vi använder endast samtycke som en laglig grund i särskilda fall. Om du har lämnat samtycke till en viss behandling
-             av personuppgifter står det dig fritt att återkalla samtycket genom att ta kontakt med oss. Även om samtycket återkallas 
-             har vi rätt att behandla sådana uppgifter som är nödvändiga för att fortsätta behandling med stöd av andra rättsliga 
-             grunder, såsom att fullgöra ett pågående avtal mellan dig och oss.</p>
-        </TextContainerGdpr>
-        <TextContainerHeader>
-          <p>Lorem</p>
-        </TextContainerHeader>
-        <TextContainerGdpr>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-               sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-             <div className="col-8 pt-3 mx-auto text-center">
+            <br /></p>
+            <div className="col-8 pt-3 mx-auto text-center">
         <Link to="/Contact" className="btn btn-outline-secondary">Kontakta Oss</Link>
         </div>
         </TextContainerGdpr>
