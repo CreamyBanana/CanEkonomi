@@ -2,13 +2,19 @@ import React from 'react'
 import Card from '../components/Card'
 import Img1 from "../assets/img1.jpg";
 import Img2 from "../assets/img2.jpg";
-import LogoImg from "../assets/logo.png"
-import { TextContainerServices } from "../styles/View.style";
+import Img3 from "../assets/img3.jpg";
+import Img4 from "../assets/img4.jpg"
+import Img5 from "../assets/img5.jpg"
+import { TextContainerServices, ViewContainer, Logo, LogoTextContainer } from "../styles/View.style";
+import servicesImg from "../assets/services.jpg";
 
 
 
 function services() {
   return (
+    <ViewContainer>
+      <LogoTextContainer>
+      <Logo src={servicesImg} />
     <div className="container-fluid d-flex justify-content-center">
       <div className="row">
         <div className="col-md-12">
@@ -28,21 +34,23 @@ function services() {
             page="/Declarations" />
         </div>
         <div className="col-md-4">
-          <Card imgsrc={LogoImg} title="Löneadministration" text="Det är viktigt att lönehantering
+          <Card imgsrc={Img3} title="Löneadministration" text="Det är viktigt att lönehantering
                      fungerar bra i bolaget för att undvika missnöje i organisationen. Vi har möjlighet att hjälpa ert företag
                       med alla frågor som rör löneadministration." page="/SalaryAdministration" />
         </div>
         <div className="col-md-4">
-          <Card imgsrc={Img1} title="Rådgivning" text="Vi träffar våra kunder regelbundet och diskuterar utsikter för 
+          <Card imgsrc={Img4} title="Rådgivning" text="Vi träffar våra kunder regelbundet och diskuterar utsikter för 
                     företaget och informerar om de nyheter som påverkar verksamheten för egenföretagare och ägare i fåmansbolag."
             page="/Advice" />
         </div>
         <div className="col-md-4">
-          <Card imgsrc={Img2} title="Bokslut & Årsredovisning" text="Vi kan ta fram årsredovisning för ert företag.
+          <Card imgsrc={Img5} title="Bokslut & Årsredovisning" text="Vi kan ta fram årsredovisning för ert företag.
                      Vi erbjuder även delårsbokslut." page="/FinancialStatementsAndAccounting" />
         </div>
       </div>
     </div>
+    </LogoTextContainer>
+    </ViewContainer>
   )
 }
 

@@ -13,6 +13,7 @@ import SalaryAdministration from "./views/SalaryAdministration";
 import Advice from "./views/Advice";
 import Error from "./views/Error";
 import Container from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <div className="page-container">
       <div className="content-wrap">
         <Router>
+        <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

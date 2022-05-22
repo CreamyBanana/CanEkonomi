@@ -41,7 +41,7 @@ export function Form() {
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
                               <label for="name">Ditt meddelande:</label>
-                              <textarea className="form-textarea" id="" placeholder="Vad behöver du hjälp med?" name="message"></textarea>
+                              <textarea className="form-textarea" id="" placeholder="Meddelande" name="message"></textarea>
                           </div>
                           <div className="col-8 pt-3 mx-auto text-center">
                               <input type="submit" className="btn btn-outline-secondary" value="Skicka meddelande" />

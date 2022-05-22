@@ -1,15 +1,15 @@
 import React from 'react'
-
 import Form from './Form'
-
 import '../styles/ContactSection.css'
+import { ViewContainer, Logo, } from "../styles/View.style";
+import contactImg from "../assets/contact.jpg";
 
 const ContactSection = () => (
   <>
-    <div className="contact-section">
-    <h2 className="form-h2" >Kontakta oss nedan!</h2>
+      <ViewContainer>
+        <Logo src={contactImg} />
+      </ViewContainer>
       <Form />
-    </div>
   </>
 )
 

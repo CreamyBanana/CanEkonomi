@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
 export const FooterContainer = styled.div`
-    padding: 80px 60px;
     background: #F5F5F5; 
     left:0;
     bottom:0;
     right:0;
     border-top: 1px solid grey;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-top: 2px;
 `
 
 export const FooterWrapper = styled.div`

@@ -9,7 +9,8 @@ export const containerStyle = {
     justifyContent:'center',
     marginLeft: '9%',
     marginRight: '9%',
-    marginBottom: '30px'
+    marginBottom: '30px',
+    marginTop: '30px'
   };
 
  export const center = {
