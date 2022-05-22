@@ -36,14 +36,12 @@ export function Form() {
                               <input type="email" className="form-input" placeholder="din-email@exempel.com" name="reply_to"/>
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
-                          <label for="name">Ämne:</label>
+                          <label for="name" >Ämne:</label>
                               <input type="text" className="form-input" placeholder="Årsredovisning" name="subject"/>
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
-                          <label for="name">Ditt meddelande:</label>
-                          </div>
-                          <div className="col-8 form-group pt-2 mx-auto">
-                              <textarea className="form-textarea" id="" placeholder="Hur kan jag hjälpa till" name="message"></textarea>
+                              <label for="name">Ditt meddelande:</label>
+                              <textarea className="form-textarea" id="" placeholder="Vad behöver du hjälp med?" name="message"></textarea>
                           </div>
                           <div className="col-8 pt-3 mx-auto text-center">
                               <input type="submit" className="btn btn-outline-secondary" value="Skicka meddelande" />

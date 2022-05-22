@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
-export const ViewContainer = styled.div`
+export const ViewContainerAbout = styled.div`
   width: 100%;
   display: flex;
 `;
 
-export const LogoTextContainer = styled.div`
+export const LogoTextContainerAbout = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 `;
 
-export const TextContainer = styled.div`
+export const TextContainerAbout = styled.div`
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -25,8 +25,8 @@ export const TextContainer = styled.div`
   width: 765px;
   line-height: 1.5;
   color: #333333;
-  margin-top: 90px;
-  margin-bottom: 90px;
+
+
   
   @media (max-width: 861px) {
     text-align: center;
@@ -66,40 +66,35 @@ export const TextContainer = styled.div`
     font-size: small;
     line-height: 1.5;
     color: #333333;
-    margin-top: 35px;
-    margin-bottom: -35px;
   }
   
 `;
 
-export const TextContainerServices = styled.div`
+export const TextContainerAboutHeader = styled.div`
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
   font-family: 'Urbanist', sans-serif;
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
   resize: none;
-  height: 210px;
-  width: 765px;
   line-height: 1.5;
   color: #333333;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+
   
   @media (max-width: 861px) {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     font-family: 'Urbanist', sans-serif;
     font-weight: bold;
-    font-size: large;
+    font-size: x-large;
     resize: none;
-    width: 600px;
-    line-height: 1.5;
     color: #333333;
-    margin-top: 40px;
-  margin-bottom: -30px;
   }
 
   @media (max-width: 599px) {
@@ -109,31 +104,28 @@ export const TextContainerServices = styled.div`
     width: 100%;
     font-family: 'Urbanist', sans-serif;
     font-weight: bold;
-    font-size: large;
-    line-height: 1.5;
+    font-size: x-large;
     color: #333333;
   }
 
   @media (max-width: 559px) {
     text-align: center;
-    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     resize: none;
-    width: 360px;
     font-family: 'Urbanist', sans-serif;
     font-weight: bold;
-    font-size: small;
-    line-height: 1.5;
+    font-size: large;
     color: #333333;
-    margin-top: 20px;
-    margin-bottom: -75px;
   }
   
 `;
 
-export const Logo = styled.img`
+export const LogoAbout = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  max-width: 1400px;
 `;
