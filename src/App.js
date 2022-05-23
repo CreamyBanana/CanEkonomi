@@ -12,7 +12,7 @@ import Declarations from "./views/Declarations";
 import SalaryAdministration from "./views/SalaryAdministration";
 import Advice from "./views/Advice";
 import Error from "./views/Error";
-import Container from "./components/Footer";
+import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 
@@ -38,7 +38,7 @@ function App() {
           </Routes>
         </Router>
       </div>
-      <Container />
+      <Footer />
     </div>
   );
 }

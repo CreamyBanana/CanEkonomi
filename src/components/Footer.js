@@ -2,7 +2,11 @@ import React from "react";
 import { FooterContainer, FooterWrapper, FooterColumn, FooterLink, Logo } from "../styles/Footer.style";
 import LogoImg from "../assets/logo.png";
 
-export function Container() {
+{/* Component that is used as the footer of the website. The component has
+ a container and wrapper that holds what is to displayed
+ a column that determines how the content is to be displayed and lastly the content itselft
+*/}
+export function Footer() {
     return (
         <FooterContainer>
             <FooterWrapper>
@@ -16,4 +20,4 @@ export function Container() {
         </FooterContainer>
     );
 }
-export default Container;
+export default Footer;
