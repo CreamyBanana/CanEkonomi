@@ -26,7 +26,7 @@ export const TextContainer = styled.div`
   line-height: 1.5;
   color: #333333;
   margin-top: 10px;
-  margin-bottom: 45px;
+  margin-bottom: 15px;
   
   @media (max-width: 861px) {
     text-align: center;
@@ -85,8 +85,8 @@ export const TextContainerGdpr = styled.div`
   width: 950px;
   line-height: 1.5;
   color: #333333;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   
   @media (max-width: 1000px) {
     text-align: justify;
@@ -99,6 +99,7 @@ export const TextContainerGdpr = styled.div`
     width: 600px;
     line-height: 1.5;
     color: #333333;
+    margin-bottom: 15px;
   }
 
   @media (max-width: 660px) {
@@ -124,7 +125,8 @@ export const TextContainerGdpr = styled.div`
     font-size: small;
     line-height: 1.5;
     color: #333333;
-    margin-top: 35px;
+    margin-top: 10px;
+    padding: 10px;
   }
   
 `;
@@ -156,7 +158,8 @@ export const TextContainerServices = styled.div`
     line-height: 1.5;
     color: #333333;
     margin-top: 40px;
-  margin-bottom: -30px;
+    margin-bottom: -30px;
+    padding: 4px;
   }
 
   @media (max-width: 599px) {

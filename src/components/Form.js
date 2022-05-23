@@ -24,23 +24,25 @@ export function Form() {
               <form onSubmit={sendEmail}>
                       <div className="row pt-5 mx-auto">
                           <div className="col-8 form-group mx-auto">
-                              <label for="name">Namn:</label>
+                              <div className='widthOnForm'>
+                              <label for="name" className='form-label'>Namn:</label>
                               <input type="text" className="form-input" placeholder="Karl Karlsson" name="name"/>
+                              </div>
                           </div>
                           <div className="col-8 form-group mx-auto">
-                          <label for="name">Telefonnummer:</label>
+                          <label for="name" className='form-label'>Telefonnummer:</label>
                               <input type="text" className="form-input" placeholder="+46 700 10 20 30" name="tel"/>
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
-                          <label for="name">Email:</label>
+                          <label for="name" className='form-label'>Email:</label>
                               <input type="email" className="form-input" placeholder="din-email@exempel.com" name="reply_to"/>
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
-                          <label for="name" >Ämne:</label>
+                          <label for="name" className='form-label'>Ämne:</label>
                               <input type="text" className="form-input" placeholder="Årsredovisning" name="subject"/>
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
-                              <label for="name">Ditt meddelande:</label>
+                              <label for="name" className='form-label'>Ditt meddelande:</label>
                               <textarea className="form-textarea" id="" placeholder="Meddelande" name="message"></textarea>
                           </div>
                           <div className="col-8 pt-3 mx-auto text-center">
