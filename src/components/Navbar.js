@@ -1,14 +1,6 @@
 import React, { useState } from "react";
-import {
-  NavbarContainer,
-  LeftContainer,
-  RightContainer,
-  NavbarExtendedContainer,
-  NavbarInnerContainer,
-  NavbarLinkContainer,
-  NavbarLink,
-  Logo,
-  OpenLinksButton,
+import {  NavbarContainer,  LeftContainer,  RightContainer,  NavbarExtendedContainer,  
+  NavbarInnerContainer,  NavbarLinkContainer, NavbarLink,  Logo,  OpenLinksButton,  
   NavbarLinkExtended,
 } from "../styles/Navbar.style";
 import LogoImg from "../assets/logo.png";
@@ -22,9 +14,9 @@ function Navbar() {
         <LeftContainer>
           <NavbarLinkContainer>
             <NavbarLink to="/"> Hem</NavbarLink>
-            <NavbarLink to="/services"> Tjänster</NavbarLink>
-            <NavbarLink to="/aboutUs"> Om Oss</NavbarLink>
-            <NavbarLink to="/gdpr"> GDPR</NavbarLink>
+            <NavbarLink to="/services"> Tjänster</NavbarLink>  {/* This is our component navbar. What we do here is import all necessary components. */}
+            <NavbarLink to="/aboutUs"> Om Oss</NavbarLink>     {/* Use a usestate function to swich the navbar style. */} 
+            <NavbarLink to="/gdpr"> GDPR</NavbarLink>          {/* extendNavbar is a function for the navbar to display everything included in the NavbarextendedContainer  */}         
             <NavbarLink to="/contact"> Kontakt</NavbarLink>
             <OpenLinksButton
               onClick={() => {

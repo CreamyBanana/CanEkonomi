@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/Card.style.css";
 import { Link } from 'react-router-dom';
 
+{/* Component that defines the cards used. It contains bootstrap for styling them.
+The props is used so that they can be defined when the component is used */}
+
 const Card = props => {
   return (
     <div className="card text-center shadow">

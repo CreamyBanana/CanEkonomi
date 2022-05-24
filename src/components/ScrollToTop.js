@@ -10,3 +10,7 @@ export default function ScrollToTop() {
 
   return null;
 }
+
+{/* This is our component scroll to top. We basically
+tell the page in the code to scroll to location 0,0 
+which is at the top of the page */}

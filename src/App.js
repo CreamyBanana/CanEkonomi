@@ -15,13 +15,16 @@ import Error from "./views/Error";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
+{/* App.js is like the heart of the system. it helps us navigate trhough all our pages 
+with uor imports and routes. It also displays navbar and footer on every page and 
+includes the component scrolltotop which task is to scroll every page to the top afgter navigating*/}
 
 function App() {
   return (
     <div className="page-container">
       <div className="content-wrap">
         <Router>
-        <ScrollToTop />
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
